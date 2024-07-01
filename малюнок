@@ -1,0 +1,45 @@
+2
+|---/hw_10
+        |---/hw_10
+                |---__init__.py
+                |---asgi.py
+                |---settings.py
+                |---urls.py
+                |---wsgi.py
+
+        |---/quotes
+                |---__init__.py
+                |---admin.py
+                |---apps.py
+                |---models.py
+                |---tests.py
+                |---urls.py
+                |---utils.py
+                |---views.py
+                |---/static
+                        |---style.css
+
+                |---/templates
+                        |---base.html
+                        |---index.html
+                
+                |---/templatetags
+                        |---extract.py
+
+        |---/users
+                |---__init__.py
+                |---admin.py
+                |---apps.py
+                |---forms.py
+                |---models.py
+                |---tests.py
+                |---urls.py
+                |---views.py
+                |---/templates
+                        |---register.html
+
+        |---/utils
+                |---add_quotes_to_mongo.py
+                |---migration.py
+                |---authors.json
+                |---quotes.json
