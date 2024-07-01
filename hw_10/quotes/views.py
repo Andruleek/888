@@ -10,3 +10,4 @@ def main(request):
     paginator = Paginator(quotes, per_page)
     quotes_on_page = paginator.get_page(page)
     return render(request, 'quotes/index.html', context={'quotes': quotes_on_page})
+
