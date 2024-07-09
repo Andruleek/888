@@ -7,25 +7,6 @@
                 |---urls.py
                 |---wsgi.py
 
-        |---/quotes
-                |---__init__.py
-                |---admin.py
-                |---apps.py
-                |---models.py
-                |---tests.py
-                |---urls.py
-                |---utils.py
-                |---views.py
-                |---/static
-                        |---style.css
-
-                |---/templates
-                        |---base.html
-                        |---index.html
-                
-                |---/templatetags
-                        |---extract.py
-
         |---/users
                 |---__init__.py
                 |---admin.py

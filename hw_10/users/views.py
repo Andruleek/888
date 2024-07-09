@@ -7,7 +7,7 @@ def register(request):
         form = RegisterForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('base.html')
+            return redirect('home/')
     else:
         form = RegisterForm()
     return render(request, 'users/register.html', {'form': form})
@@ -17,7 +17,13 @@ def login(request):
         form = LoginForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('base.html')
+            return redirect('/')
     else:
         form = LoginForm()
     return render(request, 'users/login.html', {'form': form})
+
+def home_view(request):
+    return render(request, 'users/home.html')
+
+def exit(request):
+    return render(request, 'users/home.html')
